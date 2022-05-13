@@ -1,11 +1,11 @@
 try {
     module.exports = {
         //Noise: require('./licensed/Noise'),
-        Filaments: require("./licensed/Filaments"),
-        SimplicityGalaxy: require("./licensed/SimplicityGalaxy"),
-        UniverseWithin: require("./licensed/UniverseWithin"),
-        HexaGone: require("./licensed/HexaGone"),
-        Sinuous: require("./licensed/Sinuous")
+        Filaments: require("./StarNest"),
+        SimplicityGalaxy: require("./StarNest"),
+        UniverseWithin: require("./StarNest"),
+        HexaGone: require("./StarNest"),
+        Sinuous: require("./StarNest")
     };
 } catch (ex) {
     module.exports.OutrunTheRain = {};

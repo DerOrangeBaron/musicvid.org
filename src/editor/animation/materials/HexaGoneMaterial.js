@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import ShaderToyMaterial from "editor/animation/util/ShaderToyMaterial";
-import fragShader from "../shaders/licensed/HexaGone";
+import fragShader from "../shaders/StarNest";
 import serialize from "../Serialize";
 
 export default class HexaGoneMaterial extends ShaderToyMaterial {

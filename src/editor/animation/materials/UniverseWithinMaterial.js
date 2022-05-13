@@ -1,7 +1,7 @@
 import ShaderToyMaterial from "editor/animation/util/ShaderToyMaterial";
 import { Vector2 } from "three";
 import ImpactAnalyser from "../audio/ImpactAnalyser";
-import fragShader from "../shaders/licensed/UniverseWithin";
+import fragShader from "../shaders/StarNest";
 
 export default class UniverseWithinMaterial extends ShaderToyMaterial {
     constructor(item) {
